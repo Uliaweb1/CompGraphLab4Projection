@@ -57,7 +57,9 @@ if __name__ == '__main__':
     # перетворення згідно лабораторної номер 4
     image_projection = image_gen(project(load_data('datasets/ds_new.txt')))
     img = Image.fromarray(image_projection, 'RGB')
+    img.show()
     img.save('images/perspective_projection.png')
+
 
 
 
